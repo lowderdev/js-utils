@@ -1,0 +1,56 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "Utility functions for JS",
+  "main": "utils.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint-plugin-asurion": "git+https://enterprise-bitbucket.asurion.com/scm/frm/eslint-plugin-asurion.git",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "prettier": "^1.15.3"
+  },
+  "scripts": {
+    "test": "nyc mocha; exit 0"
+  },
+  "nyc": {
+    "skip-full": true,
+    "reporter": [
+      "html",
+      "text-summary"
+    ]
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "printWidth": 90,
+    "proseWrap": "preserve",
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowderl/js-utils.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "util",
+    "utils",
+    "utilities"
+  ],
+  "author": "Logan Lowder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lowderl/js-utils/issues"
+  },
+  "homepage": "https://github.com/lowderl/js-utils#readme"
+}
