@@ -1,4 +1,5 @@
 # JavaScript Utilities - (js-utils)
+(so far just a few borrowed from Rails)
 
 ## blank
 The opposite of [present](##present):  
@@ -89,7 +90,7 @@ Examples:
 ```javascript
 const { presence } = require('js-utils');
 
-present({});
+presence({});
 // => false
 presence({ a: 1 });
 // => { a: 1 }

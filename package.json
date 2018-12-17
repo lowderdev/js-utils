@@ -9,7 +9,6 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint-plugin-asurion": "git+https://enterprise-bitbucket.asurion.com/scm/frm/eslint-plugin-asurion.git",
     "mocha": "^5.2.0",
     "nyc": "^13.1.0",
     "prettier": "^1.15.3"
